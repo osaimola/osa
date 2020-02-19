@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/osa/static/css/main.927bfaea.chunk.css",
+    "main.js": "/osa/static/js/main.68b379ee.chunk.js",
+    "main.js.map": "/osa/static/js/main.68b379ee.chunk.js.map",
+    "runtime-main.js": "/osa/static/js/runtime-main.d25558d0.js",
+    "runtime-main.js.map": "/osa/static/js/runtime-main.d25558d0.js.map",
+    "static/js/2.18bb858e.chunk.js": "/osa/static/js/2.18bb858e.chunk.js",
+    "static/js/2.18bb858e.chunk.js.map": "/osa/static/js/2.18bb858e.chunk.js.map",
+    "index.html": "/osa/index.html",
+    "precache-manifest.87a9d5c56098e6e8e7a6af985c86b7ef.js": "/osa/precache-manifest.87a9d5c56098e6e8e7a6af985c86b7ef.js",
+    "service-worker.js": "/osa/service-worker.js",
+    "static/css/main.927bfaea.chunk.css.map": "/osa/static/css/main.927bfaea.chunk.css.map",
+    "static/js/2.18bb858e.chunk.js.LICENSE.txt": "/osa/static/js/2.18bb858e.chunk.js.LICENSE.txt",
+    "static/media/api-icon.png": "/osa/static/media/api-icon.32f244f9.png",
+    "static/media/django-icon.png": "/osa/static/media/django-icon.c095d2d7.png",
+    "static/media/email-icon.svg": "/osa/static/media/email-icon.ba36d463.svg",
+    "static/media/github-icon.svg": "/osa/static/media/github-icon.320a183e.svg",
+    "static/media/gm-icon.png": "/osa/static/media/gm-icon.b0e86b21.png",
+    "static/media/hng-icon.png": "/osa/static/media/hng-icon.48a4698d.png",
+    "static/media/location-icon.svg": "/osa/static/media/location-icon.70953c3f.svg",
+    "static/media/logo.svg": "/osa/static/media/logo.5d5d9eef.svg",
+    "static/media/phone-icon.svg": "/osa/static/media/phone-icon.7e92439a.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d25558d0.js",
+    "static/js/2.18bb858e.chunk.js",
+    "static/css/main.927bfaea.chunk.css",
+    "static/js/main.68b379ee.chunk.js"
+  ]
+}

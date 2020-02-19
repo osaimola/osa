@@ -64,7 +64,8 @@ class Profile extends Component {
           </div>
           <div className="intro">
             <p>
-              Hi, I'm Osa. I'm passionate about building great things with code.
+              Hi, I'm Osa. I'm passionate about building awesome things with
+              code.
             </p>
           </div>
           <div className="skills">

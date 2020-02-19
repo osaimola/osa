@@ -1,0 +1,98 @@
+.profile {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.bio.image {
+  max-width: 185px;
+  width: 100%;
+  height: auto;
+}
+
+.bio.icon {
+  width: auto;
+  height: 16px;
+  margin-right: 4px;
+}
+
+.bio.cards {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  font-size: 14px;
+  line-height: 16px;
+  margin-top: 4px;
+}
+
+.bio {
+  display: flex;
+  flex-direction: row;
+  color: #24292e;
+}
+.bio h1 {
+  margin-bottom: 0px;
+}
+
+.bio p {
+  margin-top: 8px;
+  margin-bottom: 12px;
+  font-size: 14px;
+}
+.bio a {
+  text-decoration: none;
+  color: #0366d6;
+}
+.bio a:hover {
+  text-decoration: underline;
+  color: #0366d6;
+}
+
+.bio a:visited {
+  color: #0366d6;
+}
+
+.intro {
+  color: #24292e;
+  font-weight: 390;
+}
+
+.skills {
+  display: none;
+  color: #24292e;
+}
+
+/*mid size screen*/
+@media only screen and (min-width: 450px) {
+  .bio.image {
+    max-width: 272px;
+  }
+}
+
+/*large screens*/
+@media only screen and (min-width: 900px) {
+  .profile {
+    padding-right: 0;
+  }
+  .bio {
+    display: flex;
+    flex-direction: column;
+  }
+  .bio.image {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+  }
+  .skills {
+    display: block;
+    margin-top: 32px;
+  }
+
+  .skills ul {
+    padding-left: 20px;
+    margin: 8px 0 0 0;
+    list-style-position: inside;
+  }
+
+  .skills h3 {
+    margin-bottom: 0;
+  }
+}

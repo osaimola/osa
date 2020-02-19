@@ -1,0 +1,106 @@
+.projectscard {
+  grid-column: 1 / span 2;
+  margin-bottom: 30px;
+}
+
+.title_div {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.title {
+  background-color: rgb(255, 255, 255);
+  color: #303335;
+  padding: 4px 8px;
+  border: 1px solid rgb(168, 168, 168);
+  border-radius: 2px;
+  width: fit-content;
+  text-decoration: none;
+}
+
+.title:hover {
+  color: #e36209;
+  border: 1px solid #e36209;
+}
+
+.projectdesc {
+  position: relative;
+  padding-left: 8px;
+  top: 0px;
+  left: 0px;
+}
+
+.projectdesc:before {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 7px;
+  z-index: -1;
+  display: block;
+  width: 2px;
+  content: "";
+  background-color: #eaecef;
+}
+
+.projectdesc:after {
+  position: absolute;
+  top: -22px;
+  right: 20%;
+  left: 20%;
+  z-index: -1;
+  height: 1px;
+  content: "";
+  background-color: #eaecef;
+}
+
+.projectdescdetails strong {
+  margin: 0;
+  color: #555555;
+}
+
+.tags {
+  padding: 16px 0 0 12px; /*use padding to avoid displacing the :after line */
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.tags a {
+  background-color: rgb(255, 255, 255);
+  color: #303335;
+  padding: 4px 8px;
+  border: 1px solid rgb(168, 168, 168);
+  border-radius: 2px;
+  width: fit-content;
+  text-decoration: none;
+  margin-right: 8px;
+}
+
+.tags a:hover {
+  color: #e36209;
+  border: 1px solid #e36209;
+}
+
+.projectdescdetails span {
+  margin: 0 2px;
+  padding: 2px 5px;
+  color: white;
+  background-color: #f3a97c;
+  border-radius: 2px;
+}
+
+.projectdescdetails img {
+  width: auto;
+  height: 36px;
+  margin-right: 8px;
+}
+
+.projectdescdetails article {
+  flex: 1; /* make product descri grow to fill available space*/
+  line-height: 1.4;
+  margin: 8px 0 0 12px;
+}
+
+.projectdescdetails ul {
+  margin: 8px 0;
+  padding: 0 0 0 28px;
+}

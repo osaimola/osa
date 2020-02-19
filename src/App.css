@@ -1,0 +1,38 @@
+/*styling for the git themed page */
+.git {
+  margin: auto;
+  max-width: 1280px;
+  display: grid;
+  grid-template-rows: auto;
+  grid-gap: 15px;
+}
+
+.git .main {
+}
+
+.git .sidebar {
+  /*dfe3ee*/
+}
+
+@media only screen and (min-width: 900px) {
+  .git {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 15px;
+  }
+
+  .git .main {
+    grid-column: 2 / span 3;
+  }
+
+  .git .sidebar {
+  }
+}
+
+/* neat trick for mobile only*/
+@media only screen and (max-width: 450px) {
+  .git .sidebar {
+    background-color: #f3a97c; /*dfe3ee*/
+  }
+}

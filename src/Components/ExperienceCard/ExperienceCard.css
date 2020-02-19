@@ -1,0 +1,71 @@
+.descriptiondetails h2 {
+  margin: 0;
+  color: #333333;
+}
+
+.descriptiondetails span {
+  padding: 16px 0 0 12px; /*use padding to avoid displacing the :after line */
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.descriptiondetails img {
+  width: auto;
+  height: 36px;
+  margin-right: 8px;
+}
+
+.descriptiondetails article {
+  flex: 1; /* make product descri grow to fill available space*/
+  line-height: 1.4;
+  margin: 8px 0 0 12px;
+}
+
+.descriptiondetails ul {
+  margin: 8px 0;
+  padding: 0 0 0 28px;
+}
+
+.date {
+  background-color: rgb(255, 255, 255);
+  color: #24292e;
+  padding: 4px 8px 4px 0;
+  width: fit-content;
+}
+
+.description {
+  position: relative;
+  padding-left: 16px;
+  top: 0px;
+  left: 0px;
+}
+
+.description:before {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 15px;
+  z-index: -1;
+  display: block;
+  width: 2px;
+  content: "";
+  background-color: #eaecef;
+}
+
+.description:after {
+  position: absolute;
+  top: -12px;
+  right: 0;
+  left: 0;
+  z-index: -1;
+  height: 1px;
+  content: "";
+  background-color: #eaecef;
+}
+
+@media only screen and (min-width: 750px) {
+  .experiencecard {
+    grid-column: 1 / span 2;
+  }
+}

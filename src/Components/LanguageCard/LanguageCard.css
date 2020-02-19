@@ -1,0 +1,72 @@
+.icon {
+  width: auto;
+  height: 26px;
+  margin-right: 10px;
+}
+
+.languagecard {
+  background: white;
+  text-decoration: none;
+  color: #444;
+  border: 1px solid #d1d5da;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  /*transition to make move languagecard on hover possible*/
+  position: relative;
+  top: 0;
+  transition: all 0.1s ease-in;
+}
+
+/* adds visual cues when the languagecard is hovered
+.languagecard:hover {
+  top: -2px;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+} */
+
+/*all text in product. make product description flex and fill space*/
+.languagecard article {
+  font-family: "Quicksand", sans-serif;
+  padding: 20px;
+  font-size: small;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* font formatting */
+.languagecard h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  margin: 0;
+  color: #333;
+}
+
+.languagecard p {
+  flex: 1; /* make product descri grow to fill available space*/
+  line-height: 1.4;
+  margin: 8px 0 0 0;
+}
+
+.languagecard span {
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+  font-weight: bold;
+  color: rgba(230, 79, 71, 0.93);
+  text-align: center;
+}
+
+/* styling for card occupying
+more than one
+column
+in the 
+grid 
+
+.widecard {
+  grid-column: 1 / span 2;
+}
+
+*/

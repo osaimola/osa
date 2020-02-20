@@ -33,15 +33,15 @@ const data = {
     },
     {
       logo: react_icon,
-      name: "React.js",
+      name: "React",
       description:
-        "Good grasp of building fast, and responsive web apps (like this one) with React"
+        "Good grasp of building fast, and responsive websites (like this one) with React"
     },
     {
       logo: api_icon,
       name: "APIs",
       description:
-        "I have built several awesome projects with API's like the Twitter API, Google Places API, Openweather API and Spotify's API"
+        "I have built several awesome projects with API's like the Twitter API, Google Places API, Openweather API and Spotify's API. I have also created API endpoints to handle requirements on several personal projects"
     },
     {
       logo: html_icon,
@@ -56,7 +56,7 @@ const data = {
       name: "GoodMorning.com",
       description: (
         <React.Fragment>
-          Worked as a Digital MArketing Specialist with the GoodMorning.com
+          Worked as a Digital Marketing Specialist with the GoodMorning.com
           adteam. I was responsible for creating and managing campaigns on the
           Google Ads and Facebook Business Manager platforms. I was also
           responsible for analyzing data to draw actionable insights.
@@ -86,7 +86,7 @@ const data = {
       name: "Hotels.ng",
       description: (
         <React.Fragment>
-          Worked as a Digital marketer with hotels.ng. I was responsible
+          Worked as a Digital marketer with hotels.ng. I was responsible for
           creating and managing Google Ads campaigns, reporting performance, and
           implemeting technical SEO changes for the hotels.ng online properties.
           I also successfully designed and launched the hotels.ng/guides/

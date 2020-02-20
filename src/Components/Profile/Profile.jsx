@@ -64,24 +64,24 @@ class Profile extends Component {
           </div>
           <div className="intro">
             <p>
-              Hi, I'm Osa. I'm a self taught developer passionate about building
-              awesome things with code.
+              Hi, I'm Osa! I'm a self taught developer who is passionate about
+              building awesome things with code.
             </p>
           </div>
           <div className="skills">
             <h3>Skills</h3>
             <ul>
               <li>
-                Digital Marketing: Handled campaiggns for thousands of dollars
+                Digital Marketing: Handled campaigns with thousands of dollars
                 in daily spend.
               </li>
               <li>
                 SEO: experience carying out keyword research and
-                technical/onsite SEO changes
+                technical/onsite SEO changes.
               </li>
               <li>
                 Web Design: experience building websites on both the front and
-                backend
+                backend.
               </li>
             </ul>
           </div>

@@ -35,7 +35,7 @@ const data = {
       logo: react_icon,
       name: "React.js",
       description:
-        "Good grasp of building fast, and amazing web apps (like this one) with React"
+        "Good grasp of building fast, and responsive web apps (like this one) with React"
     },
     {
       logo: api_icon,
@@ -56,14 +56,26 @@ const data = {
       name: "GoodMorning.com",
       description: (
         <React.Fragment>
-          Worked as the cooles dude you can ever think of. day to day included
-          solving all the technical issues no one else could figure out how to
-          solve because they were great marketers but not focused on the
-          techniocal side
+          Worked as a Digital MArketing Specialist with the GoodMorning.com
+          adteam. I was responsible for creating and managing campaigns on the
+          Google Ads and Facebook Business Manager platforms. I was also
+          responsible for analyzing data to draw actionable insights.
           <ul>
-            <li>Coffee</li>
-            <li>Tea</li>
-            <li>Milk</li>
+            <li>
+              Successfully deployed profitable French campaigns on Google Ads
+              with the use of Gooogle Sheets + Google Translate to analyze
+              hundreds of foreign language search terms daily.
+            </li>
+            <li>
+              Sped up the process of detecting root cause and resolving
+              technical issues with shopping feeds; which normally takes several
+              days of back and forth communication with the Google support team.
+            </li>
+            <li>
+              Created a custom reporting dashboard for Facebook advertising with
+              Google Datastudio which provided insight previously inacessible
+              from the Facebook platform alone.
+            </li>
           </ul>
         </React.Fragment>
       )
@@ -74,14 +86,31 @@ const data = {
       name: "Hotels.ng",
       description: (
         <React.Fragment>
-          Worked as the cooles dude you can ever think of. day to day included
-          solving all the technical issues no one else could figure out how to
-          solve because they were great marketers but not focused on the
-          techniocal side
+          Worked as a Digital marketer with hotels.ng. I was responsible
+          creating and managing Google Ads campaigns, reporting performance, and
+          implemeting technical SEO changes for the hotels.ng online properties.
+          I also successfully designed and launched the hotels.ng/guides/
+          wordpress blog.
           <ul>
-            <li>Coffee</li>
-            <li>Tea</li>
-            <li>Milk</li>
+            <li>
+              Boosted SERP position of hotels by up to 2 positions, by using
+              database entries and modular templates to generate content.
+            </li>
+            <li>
+              Increased conversion rates on long-tail keywords by up to 33% by
+              using search filters to dynamically generate pages catering to
+              unique queries.
+            </li>
+            <li>
+              Monetized the hotels.ng content sites, and achieved 20% monthly
+              revenue growth by  leveraging SEO techniques to: grow traffic; and
+              capture top 3 SERP positions for over 1000 keywords.
+            </li>
+            <li>
+              Carried out keyword research, developed content strategy and
+              managed a team of  writers to successfully launch the
+              hotels.ng/guides blog.
+            </li>
           </ul>
         </React.Fragment>
       )
@@ -89,34 +118,48 @@ const data = {
   ],
   projects: [
     {
-      name: "Yohaku",
-      tags: ["Python", "Django", "Twitter API", "HTML", "CSS"],
-      github_link: "https://github.com/osaimola/yohaku",
-      demo_link: "http://yooohaku.herokuapp.com/",
+      name: "nearME",
+      tags: ["React", "Openweather API", "Google Places API", "AWS Lambda"],
+      github_link: "https://github.com/osaimola/nearme",
+      demo_link: "https://osaimola.github.io/nearme",
       description: (
         <React.Fragment>
-          A Django powered web app which allows users to share a single Twitter
-          handle. Posts to the website are sent to the twitter handle @yooohaku
-          in real time. Poster identity is kept anonymous. A feature has been
-          added to keep anonymized tags from users so, for example, offensive
-          posts can be deleted and the poster prevented from making future
-          posts.
+          A responsive web app built with React on the frontend and AWS Lambda
+          on the backend (to enable API calls while keeping API keys secret).
+          nearME helps a user find places of interest and provides information
+          on the current weather conditions. Users will also see if a POI is
+          currently open for business.
         </React.Fragment>
       )
     },
     {
-      name: "Nearme",
-      tags: ["React", "Openweather API", "Google Places API"],
-      github_link: "https://github.com/osaimola/nearme",
-      demo_link: "http://yooohaku.herokuapp.com/",
+      name: "Yohaku",
+      tags: ["Python", "Django", "Twitter API", "HTML", "CSS"],
+      github_link: "https://github.com/osaimola/yohaku",
+      demo_link: "https://yooohaku.herokuapp.com/",
       description: (
         <React.Fragment>
-          A Django powered web app which allows users to share a single Twitter
-          handle. Posts to the website are sent to the twitter handle @yooohaku
-          in real time. Poster identity is kept anonymous. A feature has been
-          added to keep anonymized tags from users so, for example, offensive
-          posts can be deleted and the poster prevented from making future
-          posts.
+          A Django powered web app which allows users to anonymously share
+          information via a single Twitter handle. Posts to the website are sent
+          to the twitter handle @yooohaku in real time. Poster identity is kept
+          secret. A feature has been added to keep anonymized tags for each user
+          so, for example, offensive posts can be deleted in batches and the
+          perpetrator prevented from creating further posts.
+        </React.Fragment>
+      )
+    },
+    {
+      name: "Honest",
+      tags: ["Python", "Django", "HTML", "CSS"],
+      github_link: "https://github.com/osaimola/honestapp_project",
+      demo_link: "https://honestng.herokuapp.com/",
+      description: (
+        <React.Fragment>
+          A Django powered web app with sign up, sign in and logout features.
+          Users can create an account and add information on freelancers who's
+          work they are impressed with. Freelancers are also categorized by area
+          of specialization and location to make finding someone relevant
+          easier.
         </React.Fragment>
       )
     }

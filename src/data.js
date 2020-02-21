@@ -149,6 +149,30 @@ const data = {
       )
     },
     {
+      name: "BuzzerApp",
+      tags: ["Python", "Twilio Functions", "S3", "AWS Lambda"],
+      github_link: "https://github.com/osaimola/honestapp_project",
+      demo_link:
+        "https://drive.google.com/file/d/18EjDHDpNz7pGvPkYKbgYxzgBqVEj7M-e/view",
+      description: (
+        <React.Fragment>
+          This app allows guests access into a building when valid pass codes
+          are entered through DTMF tones on a buzzer. Guests can also manually
+          request access in the event where they do not posses any valid pass
+          codes. <br />A resident can Create, Read or Delete pass codes into an
+          S3 bucket via SMS commands to a Twilio number. When a visitor uses the
+          buzzer, a call is placed to the Twilio number. The visitor can then
+          enter a pass code or request the call be forwarded to the resident.{" "}
+          <br />
+          If a valid pass code is entered, the Twilio number passes the code to
+          a Lambda function which verifies and either responds with an open door
+          or deny access command. <br /> If access is requested, the Twilio
+          number forwards the call to the resident, who can then decide to open
+          or deny access after conversing with the visitor.
+        </React.Fragment>
+      )
+    },
+    {
       name: "Honest",
       tags: ["Python", "Django", "HTML", "CSS"],
       github_link: "https://github.com/osaimola/honestapp_project",

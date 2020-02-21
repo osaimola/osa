@@ -11,6 +11,7 @@ import location_icon from "./icons/location-icon.svg";
 import email_icon from "./icons/email-icon.svg";
 import phone_icon from "./icons/phone-icon.svg";
 import github_icon from "./icons/github-icon.svg";
+import resume_icon from "./icons/doc-icon.svg";
 
 const data = {
   languages: [
@@ -35,7 +36,7 @@ const data = {
       logo: react_icon,
       name: "React",
       description:
-        "Good grasp of building fast, and responsive websites (like this one) with React"
+        "Good grasp of building responsive websites (like this one) with React"
     },
     {
       logo: api_icon,
@@ -192,7 +193,8 @@ const data = {
     location: location_icon,
     phone: phone_icon,
     email: email_icon,
-    github: github_icon
+    github: github_icon,
+    resume: resume_icon
   }
 };
 

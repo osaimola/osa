@@ -60,6 +60,20 @@ class Profile extends Component {
                   github
                 </a>
               </div>
+              <div className="bio cards">
+                <img
+                  src={this.props.icons.resume}
+                  alt=""
+                  className="bio icon"
+                ></img>{" "}
+                <a
+                  href="https://drive.google.com/file/d/1sJmainVEYmDBdamR2QKI8NwZ5GCaxG4h/view"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  download my resume
+                </a>
+              </div>
             </div>
           </div>
           <div className="intro">
@@ -72,16 +86,16 @@ class Profile extends Component {
             <h3>Skills</h3>
             <ul>
               <li>
+                Web Design: experience building websites on both the front and
+                backend.
+              </li>
+              <li>
                 Digital Marketing: Handled campaigns with thousands of dollars
                 in daily spend.
               </li>
               <li>
                 SEO: experience carying out keyword research and
                 technical/onsite SEO changes.
-              </li>
-              <li>
-                Web Design: experience building websites on both the front and
-                backend.
               </li>
             </ul>
           </div>

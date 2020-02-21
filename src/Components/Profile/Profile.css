@@ -2,6 +2,20 @@
   padding-left: 5%;
   padding-right: 5%;
 }
+
+.profile a {
+  text-decoration: none;
+  color: #0366d6;
+}
+.profile a:hover {
+  text-decoration: underline;
+  color: #0366d6;
+}
+
+.profile a:visited {
+  color: #0366d6;
+}
+
 .bio.image {
   max-width: 185px;
   width: 100%;
@@ -37,18 +51,6 @@
   margin-bottom: 12px;
   font-size: 14px;
 }
-.bio a {
-  text-decoration: none;
-  color: #0366d6;
-}
-.bio a:hover {
-  text-decoration: underline;
-  color: #0366d6;
-}
-
-.bio a:visited {
-  color: #0366d6;
-}
 
 .intro {
   color: #24292e;
@@ -82,7 +84,7 @@
     height: auto;
   }
   .skills {
-    display: block;
+    display: none;
     margin-top: 32px;
   }
 

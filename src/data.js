@@ -187,6 +187,28 @@ const data = {
           easier.
         </React.Fragment>
       )
+    },
+    {
+      name: "FaceTracker",
+      tags: ["Python", "Numpy", "OpenCV"],
+      github_link: "https://github.com/osaimola/FaceTracker",
+      demo_link:
+        "https://drive.google.com/file/d/1Gq83NPAhpXzk2LNxZhV3Ys7-GpRcldqf/view?usp=sharing",
+      description: (
+        <React.Fragment>
+          This project takes a webcam feed (or video file) and uses the OpenCV
+          Python library to find a face and keep the frame centered on the face.
+          Posible applications include:
+          <ul>
+            <li>Digital image stabilization</li>{" "}
+            <li>
+              Can also be modified to find and track a body. This will eliminate
+              the need for a camera man keeping a speaker who is walking around
+              a stage in the frame
+            </li>
+          </ul>
+        </React.Fragment>
+      )
     }
   ],
   profileIcons: {

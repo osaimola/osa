@@ -151,7 +151,7 @@ const data = {
     },
     {
       name: "BuzzerApp",
-      tags: ["Python", "Twilio Functions", "S3", "AWS Lambda"],
+      tags: ["Python", "Javascript", "Twilio Functions", "S3", "AWS Lambda"],
       github_link: "https://github.com/osaimola/honestapp_project",
       demo_link:
         "https://drive.google.com/file/d/18EjDHDpNz7pGvPkYKbgYxzgBqVEj7M-e/view",

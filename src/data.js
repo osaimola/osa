@@ -19,13 +19,13 @@ const data = {
       logo: python_icon,
       name: "Python",
       description:
-        "Intermediate experience working with python. Strong grasp of OOP with experience using several python libraries"
+        "Intermediate experience working with Python. Strong grasp of OOP with experience using several python libraries"
     },
     {
       logo: javascript_icon,
       name: "Javscript",
       description:
-        "Working experience with javascript. Good grasp of literals, functions and classes"
+        "Working experience with Javascript. Good grasp of data types, functions and classes"
     },
     {
       logo: django_icon,
@@ -35,8 +35,7 @@ const data = {
     {
       logo: react_icon,
       name: "React",
-      description:
-        "Good grasp of building responsive websites (like this one) with React"
+      description: "Building responsive websites (like this one) with React"
     },
     {
       logo: api_icon,

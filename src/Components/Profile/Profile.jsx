@@ -78,8 +78,10 @@ class Profile extends Component {
           </div>
           <div className="intro">
             <p>
-              Hi, I'm Osa! I'm a self taught developer who is passionate about
-              building awesome things with code.
+              Hi, I'm Osa! I'm an aspiring developer with a digital marketing
+              background. I'm passionate about building awesome things with
+              code. Feel free to contact me to chat or ask questions about my
+              interests.
             </p>
           </div>
           <div className="skills">

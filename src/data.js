@@ -12,6 +12,7 @@ import email_icon from "./icons/email-icon.svg";
 import phone_icon from "./icons/phone-icon.svg";
 import github_icon from "./icons/github-icon.svg";
 import resume_icon from "./icons/doc-icon.svg";
+import git_icon from "./icons/git-icon.svg";
 
 const data = {
   languages: [
@@ -42,6 +43,11 @@ const data = {
       name: "APIs",
       description:
         "I have built several awesome projects with API's like the Twitter API, Google Places API, Openweather API and Spotify's API. I have also created API endpoints to handle requirements on several personal projects"
+    },
+    {
+      logo: git_icon,
+      name: "Git",
+      description: "Experience working with Git for version control"
     },
     {
       logo: html_icon,

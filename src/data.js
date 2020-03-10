@@ -2,7 +2,7 @@ import React from "react";
 import python_icon from "./icons/python.png";
 import javascript_icon from "./icons/javascript-icon.png";
 import django_icon from "./icons/django-icon.png";
-import react_icon from "./icons/logo.svg";
+import react_icon from "./icons/react-icon.svg";
 import api_icon from "./icons/api-icon.png";
 import html_icon from "./icons/html-icon.png";
 import gm_icon from "./icons/gm-icon.png";

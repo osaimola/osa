@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7267bdc900321e6404c392147b50479d",
+    "revision": "2923ad0f97f73063cfef7438e9c2cadd",
     "url": "/osa/index.html"
   },
   {
-    "revision": "a6352bd05a29127713ba",
+    "revision": "4b1002039c5295f7d4e5",
     "url": "/osa/static/css/main.681cee1d.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/osa/static/js/2.31fa264c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a6352bd05a29127713ba",
-    "url": "/osa/static/js/main.3cfd8898.chunk.js"
+    "revision": "4b1002039c5295f7d4e5",
+    "url": "/osa/static/js/main.583f717d.chunk.js"
   },
   {
     "revision": "e5e92c874525b9f0133d",
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/osa/static/media/api-icon.32f244f9.png"
   },
   {
-    "revision": "c095d2d793ef7fc3f1f770d0614c919a",
-    "url": "/osa/static/media/django-icon.c095d2d7.png"
+    "revision": "10e2520b75e528febed6b9985d62e072",
+    "url": "/osa/static/media/django-icon.10e2520b.png"
   },
   {
     "revision": "4e288072cb12bfecc52f0da66d8c1ff9",
@@ -60,11 +60,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/osa/static/media/location-icon.70953c3f.svg"
   },
   {
-    "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
-    "url": "/osa/static/media/logo.5d5d9eef.svg"
-  },
-  {
     "revision": "7e92439a76d3f1a90938c0ba48fb3d6f",
     "url": "/osa/static/media/phone-icon.7e92439a.svg"
+  },
+  {
+    "revision": "e03cb4d8a42273ed62a36f924234be89",
+    "url": "/osa/static/media/react-icon.e03cb4d8.svg"
   }
 ]);

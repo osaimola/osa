@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/osa/static/css/main.681cee1d.chunk.css",
-    "main.js": "/osa/static/js/main.3cfd8898.chunk.js",
-    "main.js.map": "/osa/static/js/main.3cfd8898.chunk.js.map",
+    "main.js": "/osa/static/js/main.583f717d.chunk.js",
+    "main.js.map": "/osa/static/js/main.583f717d.chunk.js.map",
     "runtime-main.js": "/osa/static/js/runtime-main.d25558d0.js",
     "runtime-main.js.map": "/osa/static/js/runtime-main.d25558d0.js.map",
     "static/js/2.31fa264c.chunk.js": "/osa/static/js/2.31fa264c.chunk.js",
     "static/js/2.31fa264c.chunk.js.map": "/osa/static/js/2.31fa264c.chunk.js.map",
     "index.html": "/osa/index.html",
-    "precache-manifest.97314d688b7f6a204527a73e1d0243b1.js": "/osa/precache-manifest.97314d688b7f6a204527a73e1d0243b1.js",
+    "precache-manifest.89a19ed13e25d6eb00ffae5145e96279.js": "/osa/precache-manifest.89a19ed13e25d6eb00ffae5145e96279.js",
     "service-worker.js": "/osa/service-worker.js",
     "static/css/main.681cee1d.chunk.css.map": "/osa/static/css/main.681cee1d.chunk.css.map",
     "static/js/2.31fa264c.chunk.js.LICENSE.txt": "/osa/static/js/2.31fa264c.chunk.js.LICENSE.txt",
     "static/media/api-icon.png": "/osa/static/media/api-icon.32f244f9.png",
-    "static/media/django-icon.png": "/osa/static/media/django-icon.c095d2d7.png",
+    "static/media/django-icon.png": "/osa/static/media/django-icon.10e2520b.png",
     "static/media/doc-icon.svg": "/osa/static/media/doc-icon.4e288072.svg",
     "static/media/email-icon.svg": "/osa/static/media/email-icon.ba36d463.svg",
     "static/media/git-icon.svg": "/osa/static/media/git-icon.d10df85e.svg",
@@ -21,13 +21,13 @@
     "static/media/gm-icon.png": "/osa/static/media/gm-icon.b0e86b21.png",
     "static/media/hng-icon.png": "/osa/static/media/hng-icon.48a4698d.png",
     "static/media/location-icon.svg": "/osa/static/media/location-icon.70953c3f.svg",
-    "static/media/logo.svg": "/osa/static/media/logo.5d5d9eef.svg",
-    "static/media/phone-icon.svg": "/osa/static/media/phone-icon.7e92439a.svg"
+    "static/media/phone-icon.svg": "/osa/static/media/phone-icon.7e92439a.svg",
+    "static/media/react-icon.svg": "/osa/static/media/react-icon.e03cb4d8.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.d25558d0.js",
     "static/js/2.31fa264c.chunk.js",
     "static/css/main.681cee1d.chunk.css",
-    "static/js/main.3cfd8898.chunk.js"
+    "static/js/main.583f717d.chunk.js"
   ]
 }

@@ -16,7 +16,7 @@ class Profile extends Component {
               <img
                 className="bio image"
                 src="https://avatars2.githubusercontent.com/u/39202977?s=460&v=4"
-                alt="oops"
+                alt="profile"
               />
             </div>
             <div>

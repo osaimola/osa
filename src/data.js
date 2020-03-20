@@ -20,7 +20,7 @@ const data = {
       logo: python_icon,
       name: "Python",
       description:
-        "Intermediate experience working with Python. Strong grasp of OOP with experience using several python libraries"
+        "Experience working with Python. Strong grasp of OOP with experience using several python libraries"
     },
     {
       logo: javascript_icon,
@@ -42,7 +42,7 @@ const data = {
       logo: api_icon,
       name: "APIs",
       description:
-        "I have built several awesome projects with API's like the Twitter API, Google Places API, Openweather API and Spotify's API. I have also created API endpoints to handle requirements on several personal projects"
+        "Built several awesome projects with API's like the Twitter API, Google Places API, Openweather API and Spotify's API. I have also created API endpoints to handle requirements on several personal projects"
     },
     {
       logo: git_icon,
@@ -124,6 +124,39 @@ const data = {
   ],
   projects: [
     {
+      name: "Manage",
+      tags: ["JavaScript", "HTML", "CSS"],
+      github_link: "",
+      demo_link: "https://osaimola.github.io/manage",
+      description: (
+        <React.Fragment>
+          Fully resposive landing page with review slider and email validation.
+        </React.Fragment>
+      )
+    },
+    {
+      name: "Honest",
+      tags: ["Python", "Django", "HTML", "CSS"],
+      github_link: "https://github.com/osaimola/honestapp_project",
+      demo_link: "https://honestng.herokuapp.com/",
+      description: (
+        <React.Fragment>
+          Django powered web app for publicly curated freelance recommendations.
+          Freelancers are also categorized by area of specialization and
+          location to make finding someone relevant easier.
+          <br />
+          <strong>Features:</strong>
+          <br />{" "}
+          <ul>
+            <li>User authentication</li>
+            <li>Page view count</li>
+            <li>Popularity based category and area sorting</li>
+            <li>Ratings and reviews</li>
+          </ul>
+        </React.Fragment>
+      )
+    },
+    {
       name: "nearME",
       tags: ["React", "Openweather API", "Google Places API", "AWS Lambda"],
       github_link: "https://github.com/osaimola/nearme",
@@ -135,6 +168,14 @@ const data = {
           nearME helps a user find places of interest and provides information
           on the current weather conditions. Users will also see if a POI is
           currently open for business.
+          <br />
+          <strong>Features:</strong>
+          <br />{" "}
+          <ul>
+            <li>Weather forecast</li>
+            <li>Point of interest (POI) search</li>
+            <li>Business open/close information</li>
+          </ul>
         </React.Fragment>
       )
     },
@@ -151,6 +192,13 @@ const data = {
           secret. A feature has been added to keep anonymized tags for each user
           so, for example, offensive posts can be deleted in batches and the
           perpetrator prevented from creating further posts.
+          <br />
+          <strong>Features:</strong>
+          <br />{" "}
+          <ul>
+            <li>Twitter API integration</li>
+            <li>Anonymous tweet sharing</li>
+          </ul>
         </React.Fragment>
       )
     },
@@ -175,24 +223,19 @@ const data = {
           or deny access command. <br /> If access is requested, the Twilio
           number forwards the call to the resident, who can then decide to open
           or deny access after conversing with the visitor.
+          <br />
+          <strong>Features:</strong>
+          <br />{" "}
+          <ul>
+            <li>CRUD operations to S3 bucket</li>
+            <li>Twilio API integration</li>
+            <li>Call forwarding</li>
+            <li>Remote door unlock</li>
+          </ul>
         </React.Fragment>
       )
     },
-    {
-      name: "Honest",
-      tags: ["Python", "Django", "HTML", "CSS"],
-      github_link: "https://github.com/osaimola/honestapp_project",
-      demo_link: "https://honestng.herokuapp.com/",
-      description: (
-        <React.Fragment>
-          A Django powered web app with sign up, sign in and logout features.
-          Users can create an account and add information on freelancers who's
-          work they are impressed with. Freelancers are also categorized by area
-          of specialization and location to make finding someone relevant
-          easier.
-        </React.Fragment>
-      )
-    },
+
     {
       name: "FaceTracker",
       tags: ["Python", "Numpy", "OpenCV"],

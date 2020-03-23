@@ -131,6 +131,7 @@ const data = {
       description: (
         <React.Fragment>
           Fully resposive URL Shortener.
+          <br />
           <strong>Features:</strong>
           <br />{" "}
           <ul>
@@ -227,6 +228,7 @@ const data = {
       description: (
         <React.Fragment>
           Fully resposive landing page with review slider and email validation.
+          <br />
           <strong>Features:</strong>
           <br />{" "}
           <ul>
@@ -246,14 +248,12 @@ const data = {
         <React.Fragment>
           This project takes a webcam feed (or video file) and uses the OpenCV
           Python library to find a face and keep the frame centered on the face.
-          Posible applications include:
+          <br />
+          <strong>Features:</strong>
+          <br />{" "}
           <ul>
-            <li>Digital image stabilization</li>{" "}
-            <li>
-              Can also be modified to find and track a body. This will eliminate
-              the need for a camera man keeping a speaker who is walking around
-              a stage in the frame
-            </li>
+            <li>Face detection</li>
+            <li>Face tracking</li>
           </ul>
         </React.Fragment>
       )

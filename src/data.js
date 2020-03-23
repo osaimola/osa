@@ -124,13 +124,20 @@ const data = {
   ],
   projects: [
     {
-      name: "Manage",
-      tags: ["JavaScript", "HTML", "CSS"],
-      github_link: "",
-      demo_link: "https://osaimola.github.io/manage",
+      name: "URL Shortener",
+      tags: ["JavaScript", "React", "HTML", "CSS", "API"],
+      github_link: "https://github.com/osaimola/url-shortener",
+      demo_link: "https://osaimola.github.io/url-shortener/",
       description: (
         <React.Fragment>
-          Fully resposive landing page with review slider and email validation.
+          Fully resposive URL Shortener.
+          <strong>Features:</strong>
+          <br />{" "}
+          <ul>
+            <li>URL Shortening with the urlday API</li>
+            <li>Copy to clipboard</li>
+            <li>URL validation</li>
+          </ul>
         </React.Fragment>
       )
     },
@@ -152,29 +159,6 @@ const data = {
             <li>Page view count</li>
             <li>Popularity based category and area sorting</li>
             <li>Ratings and reviews</li>
-          </ul>
-        </React.Fragment>
-      )
-    },
-    {
-      name: "nearME",
-      tags: ["React", "Openweather API", "Google Places API", "AWS Lambda"],
-      github_link: "https://github.com/osaimola/nearme",
-      demo_link: "https://osaimola.github.io/nearme",
-      description: (
-        <React.Fragment>
-          A responsive web app built with React on the frontend and AWS Lambda
-          on the backend (to enable API calls while keeping API keys secret).
-          nearME helps a user find places of interest and provides information
-          on the current weather conditions. Users will also see if a POI is
-          currently open for business.
-          <br />
-          <strong>Features:</strong>
-          <br />{" "}
-          <ul>
-            <li>Weather forecast</li>
-            <li>Point of interest (POI) search</li>
-            <li>Business open/close information</li>
           </ul>
         </React.Fragment>
       )
@@ -235,7 +219,23 @@ const data = {
         </React.Fragment>
       )
     },
-
+    {
+      name: "Manage",
+      tags: ["JavaScript", "HTML", "CSS"],
+      github_link: "https://github.com/osaimola/manage",
+      demo_link: "https://osaimola.github.io/manage",
+      description: (
+        <React.Fragment>
+          Fully resposive landing page with review slider and email validation.
+          <strong>Features:</strong>
+          <br />{" "}
+          <ul>
+            <li>Email validation</li>
+            <li>Responsive review slider</li>
+          </ul>
+        </React.Fragment>
+      )
+    },
     {
       name: "FaceTracker",
       tags: ["Python", "Numpy", "OpenCV"],
@@ -254,6 +254,29 @@ const data = {
               the need for a camera man keeping a speaker who is walking around
               a stage in the frame
             </li>
+          </ul>
+        </React.Fragment>
+      )
+    },
+    {
+      name: "nearME",
+      tags: ["React", "Openweather API", "Google Places API", "AWS Lambda"],
+      github_link: "https://github.com/osaimola/nearme",
+      demo_link: "https://osaimola.github.io/nearme",
+      description: (
+        <React.Fragment>
+          A responsive web app built with React on the frontend and AWS Lambda
+          on the backend (to enable API calls while keeping API keys secret).
+          nearME helps a user find places of interest and provides information
+          on the current weather conditions. Users will also see if a POI is
+          currently open for business.
+          <br />
+          <strong>Features:</strong>
+          <br />{" "}
+          <ul>
+            <li>Weather forecast</li>
+            <li>Point of interest (POI) search</li>
+            <li>Business open/close information</li>
           </ul>
         </React.Fragment>
       )
